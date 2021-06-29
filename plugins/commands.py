@@ -1,6 +1,6 @@
 """
-VC Music Player, Telegram Voice Chat Userbot
-Copyright (C) 2021  Zaute Km | TGVCSETS
+MALLUTALKIES Music Player, Telegram Voice Chat Userbot
+Copyright (C) 2021  NGROCKERS | MALLUTALKIES
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -57,11 +57,11 @@ HELP = """
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/LushaiMusic/VCMusicPlayer'),
+        InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/NGROCKERS/Music'),
     ],
     [
-        InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-        InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+        InlineKeyboardButton('👥 Group', url='https://t.me/malluvillamovies'),
+        InlineKeyboardButton('Channel 📢', url='https://t.me/ADARSHMEDIAS'),
     ],
     [
         InlineKeyboardButton('🆘 Help & Commands 🆘', callback_data='help'),
@@ -78,14 +78,14 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/LushaiMusic/VCMusicPlayer'),
+            InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/NGROCKERS/Music'),
         ],
         [
-            InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-            InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+            InlineKeyboardButton('👥 Group', url='https://t.me/malluvillamovies'),
+            InlineKeyboardButton('Channel 📢', url='https://t.me/ADARSHMEDIAS'),
         ],
         [
-            InlineKeyboardButton('🔰 How to Deploy 🔰', url='https://t.me/ZauteKm/440'),
+            InlineKeyboardButton('🔰 MOVIES CHANEL 🔰', url='https://t.me/mallurockersclub'),
         
         ]
     ]
